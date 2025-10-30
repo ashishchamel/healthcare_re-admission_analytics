@@ -128,6 +128,7 @@ You can read the complete report and executive summary here:
 👉 [**healthcare_readmission_report.pdf**](docs/report/healthcare_readmission_report.pdf)
 
 ---
+```
 ## 📁 Repository Structure
 
 healthcare-readmission-analytics/
@@ -160,7 +161,7 @@ healthcare-readmission-analytics/
 ├── tableau_dashboard-2.png
 ├── tableau_story_1.png
 └── tableau_story_2.png
-
+```
 
 ---
 
