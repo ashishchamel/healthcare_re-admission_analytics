@@ -1,0 +1,40 @@
+===========================================
+PROMPTS & AUTOMATION LOG — Healthcare Readmission Analytics
+===========================================
+
+📁 File: prompts_used.txt
+🩺 Project: Healthcare Readmission Analytics
+🎯 Purpose: Document AI-assisted code or documentation generation for transparency.
+
+-------------------------------------------
+AI / PROMPT USAGE SUMMARY
+-------------------------------------------
+Some components of this project were refined with AI assistance (ChatGPT, GPT-5)
+for documentation and template generation. All analytical logic, data cleaning, and 
+feature engineering steps were verified manually.
+
+Examples of prompts used:
+1️⃣  "Generate a clean Python function to categorize A1C and glucose values for healthcare data."
+2️⃣  "Write a recruiter-friendly README for a data analytics project using Excel, SQL, Python, and Tableau."
+3️⃣  "Summarize the dataset schema for a healthcare readmission analysis."
+4️⃣  "Create a professional GitHub repository structure and data folder READMEs."
+
+-------------------------------------------
+HUMAN REVIEW & VALIDATION
+-------------------------------------------
+- All code produced or suggested by AI was reviewed, debugged, and tested manually.
+- Business insights, KPI definitions, and SQL logic are original contributions.
+- The final README and dataset documentation were edited for accuracy and tone.
+
+-------------------------------------------
+DISCLOSURE NOTE
+-------------------------------------------
+This file exists to maintain transparency about AI-assisted documentation creation
+in compliance with open-source ethics and reproducibility practices.
+
+-------------------------------------------
+AUTHOR & VERSION
+-------------------------------------------
+Author: Ashish Chamel  
+Created: October 2025  
+Version: v1.0
