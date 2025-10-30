@@ -1,0 +1,51 @@
+===========================================
+DATA ACCESS NOTE — Healthcare Readmission Analytics
+===========================================
+
+📁 File Name: healthcare_raw.csv
+📁 File Path: data/raw/
+🔖 Project: Healthcare Readmission Analytics
+🩺 Author: Ashish Chamel
+📅 Date: October 2025
+
+-------------------------------------------
+WHY RAW DATA IS NOT INCLUDED (IF PUBLIC)
+-------------------------------------------
+The full raw dataset used in this project may not be included in the public GitHub repository for the following reasons:
+1. The dataset is large (~50–100 MB) and exceeds GitHub’s size limits for version control.
+2. It contains potentially sensitive or semi-identifiable clinical records.
+3. Licensing restrictions may apply to hospital readmission datasets.
+
+-------------------------------------------
+HOW TO ACCESS OR REPRODUCE THE DATA
+-------------------------------------------
+If you wish to reproduce this analysis:
+
+Option 1 — Request Access:
+- Contact the author (Ashish Chamel) via LinkedIn or GitHub to request the cleaned dataset sample.
+- A sanitized subset (10k–20k rows) can be shared for academic or demonstration use.
+
+Option 2 — Use a Public Equivalent:
+- You can download a similar dataset from Kaggle:  
+  🔗 https://www.kaggle.com/datasets/uciml/diabetes
+- Rename the downloaded file as `healthcare_raw.csv` and place it in:
+  `data/raw/`
+
+Option 3 — Regenerate from Notebook:
+- The notebook `python/healthcare_eda_feature_engineering.ipynb` includes
+  preprocessing and cleaning steps that can be applied to the Kaggle dataset
+  to recreate this version.
+
+-------------------------------------------
+REPRODUCIBILITY
+-------------------------------------------
+After placing the dataset in the correct path, run the following order:
+1. Execute SQL script: `sql/sql_healthcare_readmission.sql` to load and clean.
+2. Run Python notebook: `python/healthcare_eda_feature_engineering.ipynb` to process features.
+3. Export Tableau-ready data: `data/processed/healthcare_processed.csv`.
+
+-------------------------------------------
+DISCLAIMER
+-------------------------------------------
+This dataset is used strictly for educational and analytical demonstration.
+No personally identifiable patient data is published or distributed through this repository.
